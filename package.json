@@ -1,0 +1,29 @@
+{
+  "name": "mosaic-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/lib/index.js",
+  "type": "dist/lib/index.ts",
+  "scripts": {
+    "build": "tsc && npm run pack",
+    "test": "tsc && jasmine --reporter=jasmine-ts-console-reporter",
+    "doc": "node_modules/.bin/typedoc --out docs --mode modules --exclude spec/**/*",
+    "pack": "npx webpack --config webpack.config.js",
+    "jasminit": "jasmine init"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^3.5.10",
+    "jasmine": "^3.5.0",
+    "jasmine-ts-console-reporter": "^3.1.1",
+    "typedoc": "^0.17.4",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.150"
+  }
+}

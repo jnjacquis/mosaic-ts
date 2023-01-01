@@ -20,8 +20,8 @@
     "jasmine-ts-console-reporter": "^3.1.1",
     "typedoc": "^0.17.4",
     "typescript": "^3.8.3",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   },
   "dependencies": {
     "@types/lodash": "^4.14.150"
